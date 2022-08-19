@@ -1,0 +1,41 @@
+<style>
+  
+  .info-table td {
+    padding: 25px;
+  } 
+
+
+
+  table.table-result  {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table-result td, .table-result th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+</style> 
+<!-- <td>
+  <div class="form-group">
+    <label>UT</label>
+    <br />
+    <select  [(ngModel)]="sample.sampleNo">
+      <option>Select</option>
+      <option *ngFor="let ob of samples" [value]="ob.sampleNo">
+        {{ob.sampleNo}}
+      </option>
+    </select>
+  </div>
+</td> -->
+<td>
+  <div class="form-group">
+    <div class="col-xs-6">
+      <label for="sampleNo">Sample No </label>
+      <input type="text" id="sample.sampleNo" name="sampleNo" [(ngModel)]="sample.sampleNo">
+    </div>          
+  </div>
+
+</td>
